@@ -1,0 +1,34 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, generated with 'go test -c'
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+# Vendor directory used by Go 1.14+
+# The 'go mod vendor' command creates it
+vendor/
+
+# Environment variables
+.env
+
+# IntelliJ/GoLand project files
+.idea/
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Build directory (if you create one)
+/build/
+
+# Go module cache (usually in $GOPATH)
+# You might not need to ignore this if you are using Go modules outside of the standard GOPATH
+go.sum
