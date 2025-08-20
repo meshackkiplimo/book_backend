@@ -12,7 +12,7 @@ func Routes() http.Handler {
 	r.Use(middleware.Logger)
 
 	r.Route("/books", func(r chi.Router) {
-		r.Get("/", GetBooks)
+
 	})
 
 	return r
